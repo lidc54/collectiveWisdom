@@ -57,7 +57,7 @@ def main(cfg):
     execution_error_feedback = file_to_string(f'{prompt_dir}/execution_error_feedback.txt')
 
     # 明确self变量
-    code_output_tip = new_code_output_tip(task_obs_code_string, code_output_tip)
+    code_output_tip = extract_self_variable(task_obs_code_string, code_output_tip)
 
     initial_system = initial_system.format(task_reward_signature_string=reward_signature) + code_output_tip
     initial_user = initial_user.format(task_obs_code_string=task_obs_code_string, task_description=task_description)
