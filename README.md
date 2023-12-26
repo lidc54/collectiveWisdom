@@ -1,10 +1,10 @@
 # todolist
-[x] chatGPT-4境内外比对验证
-[ ] sparse & human reward evaluation
-[ ] 多大模型组合
-[ ] 大模型过滤规则的制订和试验
-[ ] 
-[ ] 
+- [ ] chatGPT-4境内外比对验证
+- [ ] sparse & human reward evaluation
+- [ ] 多大模型组合
+- [ ] 大模型过滤规则的制订和试验
+- [ ] 
+- [ ] 
 
 
 # 使用中出现的问题和解决方法
